@@ -1,54 +1,259 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Eletricista Profissional | Instalação e Manutenção</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <!-- Cabeçalho -->
     <header class="header">
         <div class="container nav-container">
             <div class="logo">
-                <!-- SUBSTITUIR PELA SUA LOGO -->
-                <h2>⚡ SeuLogo</h2>
+                <h2>⚡ reverson</h2>
             </div>
             <nav class="nav-menu">
+                <a href="#inicio">Início</a>
                 <a href="#servicos">Serviços</a>
                 <a href="#sobre">Sobre Nós</a>
+                <a href="#precos">Preços</a>
                 <a href="#contato">Contato</a>
             </nav>
-            <a href="#contato" class="btn btn-primary">Pedir Orçamento</a>
+            <a href="#contato" class="btn btn-primary">
+                Pedir Orçamento
+            </a>
         </div>
     </header>
-
-    <!-- Seção Principal (Hero) -->
-    <section class="hero">
+    <section class="hero" id="inicio">
         <div class="container hero-container">
             <div class="hero-text">
-                <h1>Serviço Elétrico Rápido, Seguro e de Confiança</h1>
-                <p>Especialistas em instalações, manutenção e reparos elétricos residenciais e comerciais. Atendimento 24h para emergências.</p>
+                <span class="hero-tag">
+                    ⚡ SOLUÇÕES ELÉTRICAS PROFISSIONAIS
+                </span>
+                <h1>
+                    Serviço Elétrico Rápido,
+                    Seguro e de Confiança
+                </h1>
+                <p>
+                    Especialistas em instalações, manutenção e
+                    reparos elétricos residenciais e comerciais.
+                    Atendimento para emergências.
+                </p>
                 <div class="hero-buttons">
-                    <a href="#contato" class="btn btn-primary">Chamar Eletricista Agora</a>
-                    <a href="#servicos" class="btn btn-secondary">Ver Serviços</a>
+                    <a href="#contato" class="btn btn-primary">
+                        Chamar Eletricista Agora
+                    </a>
+                    <a href="#servicos" class="btn btn-secondary">
+                        Conhecer Serviços
+                    </a>
+                </div>
+                <div class="hero-info">
+                    <span>✓ Atendimento profissional</span>
+                    <span>✓ Segurança e qualidade</span>
                 </div>
             </div>
             <div class="hero-image-box">
-                <!-- ESPAÇO PARA IMAGEM PRINCIPAL -->
                 <div class="image-placeholder main-placeholder">
-                    <span>COLOQUE UMA IMAGEM AQUI<br>(Ex: Você trabalhando ou sua van)</span>
+                    <img src="assets/img/rgm.png" alt="Eletricista Profissional">
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Diferenciais -->
     <section class="features">
         <div class="container features-grid">
             <div class="feature-card">
-                <h3>🕒 Atendimento Rápido</h3>
-                <p>Chegamos ao local rapidamente para resolver seu problema elétrico sem demora.</p>
+                <div class="feature-icon">🕒</div>
+                <h3>Atendimento Rápido</h3>
+                <p>
+                    Chegamos ao local rapidamente para resolver
+                    seu problema elétrico com segurança e eficiência.
+                </p>
+                <div class="feature-divider"></div>
+                <div class="feature-icon">🛡️</div>
+                <h3>Segurança e Qualidade</h3>
+                <p>
+                    Trabalhamos com atenção aos detalhes e
+                    compromisso com a qualidade dos serviços.
+                </p>
             </div>
-            <div class="feature
+            <section class="precos" id="precos">
+                <div class="precos-container">
+                    <span class="section-tag">ORÇAMENTO</span>
+                    <h2>Nossos Preços</h2>
+                    <p class="precos-descricao">
+                        Confira os valores estimados dos nossos
+                        principais serviços elétricos.
+                    </p>
+                    <div class="tabela-container">
+                        <table class="tabela-precos">
+                            <thead>
+                                <tr>
+                                    <th>Serviço</th>
+                                    <th>Descrição</th>
+                                    <th>Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Instalação de tomadas</td>
+                                    <td>Instalação ou substituição</td>
+                                    <td>R$ 80,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Instalação de chuveiro</td>
+                                    <td>Instalação elétrica</td>
+                                    <td>R$ 120,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Troca de disjuntores</td>
+                                    <td>Substituição</td>
+                                    <td>R$ 100,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Instalação de luminárias</td>
+                                    <td>Lâmpadas e luminárias</td>
+                                    <td>R$ 90,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Manutenção elétrica</td>
+                                    <td>Identificação e reparos</td>
+                                    <td>R$ 150,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Instalação de ventilador</td>
+                                    <td>Montagem e instalação</td>
+                                    <td>R$ 130,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="aviso-precos">
+                        * Valores ilustrativos. O orçamento final depende
+                        da complexidade e dos materiais utilizados.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-tag">O QUE FAZEMOS</span>
+                <h2 class="section-title">
+                    Nossos Serviços
+                </h2>
+                <p>
+                    Soluções completas para suas necessidades elétricas.
+                </p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-img image-placeholder">
+                        <img src="assets/img/instalações.png" alt="Instalações Elétricas">
+                    </div>
+                    <h3>Instalações Elétricas</h3>
+                    <p>
+                        Instalação de tomadas, interruptores,
+                        luminárias e outros componentes elétricos.
+                    </p>
+                </article>
+                <article class="service-card">
+                    <div class="service-img image-placeholder">
+                        <img src="assets/img/manutenção.png" alt="Manutenção Elétrica">
+                    </div>
+                    <h3>Manutenção Elétrica</h3>
+                    <p>
+                        Identificação de falhas, manutenção
+                        preventiva e correção de problemas elétricos.
+                    </p>
+                </article>
+                <article class="service-card">
+                    <div class="service-img image-placeholder">
+                        <img src="assets/img/reparos.png" alt="Reparos Elétricos">
+                    </div>
+                    <h3>Reparos Elétricos</h3>
+                    <p>
+                        Reparos em instalações residenciais e
+                        comerciais com atenção à segurança.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="sobre">
+        <div class="container about-container">
+            <div class="about-image image-placeholder">
+                <span>IMAGEM DA EMPRESA OU ELETRICISTA</span>
+            </div>
+            <div class="about-text">
+                <span class="section-tag">QUEM SOMOS</span>
+                <h2>Compromisso com Segurança e Qualidade</h2>
+                <p>
+                    Oferecemos serviços elétricos com dedicação,
+                    responsabilidade e atenção às necessidades
+                    de cada cliente.
+                </p>
+                <p>
+                    Nosso objetivo é proporcionar soluções
+                    eficientes para instalações, manutenções
+                    e reparos elétricos.
+                </p>
+                <a href="#contato" class="btn btn-primary">
+                    Entre em Contato
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section" id="contato">
+        <div class="container cta-container">
+            <span class="section-tag">FALE CONOSCO</span>
+            <h2>Precisa de um Eletricista?</h2>
+            <p>
+                Entre em contato e solicite um orçamento
+                para seu serviço elétrico.
+            </p>
+            <a href="https://wa.me/55SEUNUMERO"
+               class="btn btn-whatsapp"
+               target="_blank"
+               rel="noopener noreferrer">
+                Conversar pelo WhatsApp
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>⚡ ELETRICISTA</h3>
+                    <p>
+                        Soluções elétricas com qualidade,
+                        responsabilidade e segurança.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <a href="#inicio">Início</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#sobre">Sobre Nós</a>
+                    <a href="#precos">Preços</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>Entre em contato para solicitar um orçamento.</p>
+                    <a href="#contato">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    © 2026 Eletricista Profissional.
+                    Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
